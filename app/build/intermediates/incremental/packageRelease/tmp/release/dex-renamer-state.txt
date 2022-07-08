@@ -1,0 +1,4 @@
+#Fri Jul 08 17:08:36 IST 2022
+base.0=D\:\\DemoProjects\\TurtlemintAssignment\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

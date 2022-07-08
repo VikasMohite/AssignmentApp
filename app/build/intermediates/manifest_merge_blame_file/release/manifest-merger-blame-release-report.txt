@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.turtlemintassignment"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:6:5-79
+11-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:7:5-67
+12-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:7:22-64
+13
+14    <application
+14-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:9:5-38:19
+15        android:allowBackup="true"
+15-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:10:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] C:\Users\e5560\.gradle\caches\transforms-3\0e95df9c0fbaa7d02189dfc72489cebd\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:11:9-65
+18        android:fullBackupContent="@xml/backup_rules"
+18-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:12:9-54
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:13:9-43
+20        android:label="@string/app_name"
+20-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:14:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:15:9-54
+22        android:supportsRtl="true"
+22-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:16:9-35
+23        android:theme="@style/Theme.TurtlemintAssignment"
+23-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:17:9-58
+24        android:usesCleartextTraffic="true" >
+24-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:18:9-44
+25        <activity
+25-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:20:9-23:40
+26            android:name="com.example.turtlemintassignment.CommentsActivity"
+26-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:21:13-45
+27            android:exported="false"
+27-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:23:13-37
+28            android:label="Comments" />
+28-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:22:13-37
+29
+30        <uses-library
+30-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:25:9-27:40
+31            android:name="org.apache.http.legacy"
+31-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:26:13-50
+32            android:required="false" />
+32-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:27:13-37
+33
+34        <activity
+34-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:29:9-37:20
+35            android:name="com.example.turtlemintassignment.MainActivity"
+35-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:30:13-41
+36            android:exported="true" >
+36-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:31:13-36
+37            <intent-filter>
+37-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:32:13-36:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:33:17-69
+38-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:33:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:35:17-77
+40-->D:\DemoProjects\TurtlemintAssignment\app\src\main\AndroidManifest.xml:35:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <service
+44-->[androidx.room:room-runtime:2.2.5] C:\Users\e5560\.gradle\caches\transforms-3\baca76441fa04752d1a7a22a255db553\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+45            android:name="androidx.room.MultiInstanceInvalidationService"
+45-->[androidx.room:room-runtime:2.2.5] C:\Users\e5560\.gradle\caches\transforms-3\baca76441fa04752d1a7a22a255db553\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+46            android:directBootAware="true"
+46-->[androidx.room:room-runtime:2.2.5] C:\Users\e5560\.gradle\caches\transforms-3\baca76441fa04752d1a7a22a255db553\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+47            android:exported="false" />
+47-->[androidx.room:room-runtime:2.2.5] C:\Users\e5560\.gradle\caches\transforms-3\baca76441fa04752d1a7a22a255db553\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\e5560\.gradle\caches\transforms-3\e98d91a00d150bbdaa4e65d7c8f2a30e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\e5560\.gradle\caches\transforms-3\e98d91a00d150bbdaa4e65d7c8f2a30e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+51            android:authorities="com.example.turtlemintassignment.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\e5560\.gradle\caches\transforms-3\e98d91a00d150bbdaa4e65d7c8f2a30e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\e5560\.gradle\caches\transforms-3\e98d91a00d150bbdaa4e65d7c8f2a30e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\e5560\.gradle\caches\transforms-3\e98d91a00d150bbdaa4e65d7c8f2a30e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\e5560\.gradle\caches\transforms-3\e98d91a00d150bbdaa4e65d7c8f2a30e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\e5560\.gradle\caches\transforms-3\e98d91a00d150bbdaa4e65d7c8f2a30e\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\e5560\.gradle\caches\transforms-3\17d290deb0354bec90273492a7b9f21a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\e5560\.gradle\caches\transforms-3\17d290deb0354bec90273492a7b9f21a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\e5560\.gradle\caches\transforms-3\17d290deb0354bec90273492a7b9f21a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+59        </provider>
+60    </application>
+61
+62</manifest>
